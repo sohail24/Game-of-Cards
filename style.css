@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(31, 23, 51);
+  }
+  @media screen and (prefers-color-scheme: light) {
+    body {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  /* div{
+      background-color: whitesmoke;
+  } */
+
+
+.container{
+   border: 1px solid grey;
+   background-color: aliceblue;
+   width: 75%;
+   margin: 50px auto;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.container-flexbox{
+   display: flex;
+   border: 1px solid black;
+   padding: 10px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+
+#blackjack-result{
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#container-flexbox-row-1 ,#container-flexbox-row-2,#container-flexbox-row-3 { 
+    /* background: url('https://pl.sterlingcdn.com/wp-content/uploads/sites/3/2018/07/blackjack-classic-background.jpg')center; */
+    background: url('https://images.hdqwalls.com/download/abstract-green-gradient-bs-1680x1050.jpg')center;
+    background-repeat: no-repeat;
+}
+
+#container-flexbox-row-1{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+}
+
+#your-box, #dealer-box{
+    display: flexbox;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#your-box-card-holder, #dealer-box-card-holder{
+    display: flex;
+    flex-direction: row;
+    /* border: 5px solid black; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    /* max */
+}
+
+#your-box img, #dealer-box img{
+    margin: 10px;
+}
+
+
+#container-flexbox-row-3{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+
+#container-flexbox-row-3 th,td{
+    padding: 10px;
+    border-left: 5px solid darkslategrey;
+}
+
+#container-flexbox-row-3 table{
+    border-radius: 10px;
+    background-color: honeydew;
+    width: 40%;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 30px; 
+}  
+/* 
+#container-flexbox-row-1 div{
+    height: 500px;
+    background-color: transparent;
+}
+
+
+#container-flexbox-row-1 div{
+    display: flex;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+
+
+#your-box{
+    display: flex;
+    justify-content: center;
+
+} */

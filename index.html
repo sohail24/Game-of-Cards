@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h1><center>Card Game</center></h1>
+            <p><span id="blackjack-result">Let's Play</span></p>
+        
+            <div class = "container-flexbox" id="container-flexbox-row-1">
+            <div id = "your-box">
+                <h2>You:<span id="your-result">0</span></h2>
+                <div id="your-box-card-holder"></div>
+                    <!-- <div style="border: 1px solid black;">Here Images Card Will Be placed</div>
+
+                <img src="static/images/4.png"> -->
+        
+            </div>
+                            
+            <div id ="dealer-box"> 
+                <h2>Dealer:<span id = "dealer-result">0</span></h2>
+                <div id="dealer-box-card-holder"></div>
+            </div>
+        </div>
+
+        <div class = "container-flexbox" id="container-flexbox-row-2">
+            <div style="background-color: transparent;">
+               <button class="btn btn-primary" id="hit">Hit</button>
+               <button class="btn btn-warning" id="stand">Stand</button>
+               <button class="btn btn-danger" id="deal">Deal</button>
+            </div>
+        </div>
+
+        <div class="container-flexbox"  id="container-flexbox-row-3">
+            <table>
+                <tr>
+                    <th>wins</th>
+                    <th>losses</th>
+                    <th>draws</th>
+                </tr>
+                <tr>
+                    <td><span id= "wins">0</span></td>
+                    <td><span id = "losses">0</span></td>
+                    <td><span id = "draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+        <h4>Made With &#10084;&#65039; By Sohail Ahmad</h4>
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
