@@ -49,6 +49,7 @@ body {
     display: flex;
     flex-direction: row;
     border: 10px solid black;
+    overflow-y: auto;
 }
 
 #your-box, #dealer-box{
