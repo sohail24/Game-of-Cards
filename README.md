@@ -6,7 +6,7 @@ higher score then other wins. Goind beyond max limit while hitting will lead to 
 Note : here a max limit of 21 is set so going beyond it would resut BUSTED!.
 
 ## concepts learned while building the project
-1. Async And Await for slowing down computer response.
+1. Async And Await 
 2. DOM
 3. CSS Table Design
 
