@@ -1,6 +1,6 @@
-# Card-Game
+# Game Of Cards
 
-Card Game where a player can play against computer and reach a score equal or below a max limit. One with
+Game of Cards is a Card Game where a player can play against computer and reach a score equal or below a max limit. One with
 higher score then other wins. Goind beyond max limit while hitting will lead to busted which means you lost!!.
 
 Note : here a max limit of 21 is set so going beyond it would resut BUSTED!.
